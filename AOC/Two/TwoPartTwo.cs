@@ -1,6 +1,6 @@
 ﻿namespace AOC.Two;
 
-public static class TwoPartOne
+public static class TwoPartTwo
 {
     public static int Run(List<List<int>>? input = null)
     {
@@ -9,7 +9,7 @@ public static class TwoPartOne
         foreach (var measurementSet in input ?? ExtractMeasurementData())
         {
             var isIncreasing = measurementSet[0] < measurementSet[0+1];
-            var isSafe = true;
+            var isUnSafeCount = 0;
             
             for (var i = 0; i < measurementSet.Count -1; i++)
             {
@@ -24,11 +24,11 @@ public static class TwoPartOne
 
                 if (!creaseCorrectly || !levelingCorrectly)
                 {
-                    isSafe = false;
+                    isUnSafeCount += 1;
                 }
             }
             
-            if(isSafe) safeReports += 1;
+            if(isUnSafeCount < 2) safeReports += 1;
         }
         
         return safeReports;

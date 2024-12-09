@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AOC", "AOC\AOC.csproj", "{C9CBFF34-5389-4907-8A6A-E23D4F8A817E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AOCTests", "AOCTests\AOCTests.csproj", "{5DF3C91D-06F9-41E0-9F8B-19B658DAD022}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{C9CBFF34-5389-4907-8A6A-E23D4F8A817E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9CBFF34-5389-4907-8A6A-E23D4F8A817E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9CBFF34-5389-4907-8A6A-E23D4F8A817E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DF3C91D-06F9-41E0-9F8B-19B658DAD022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DF3C91D-06F9-41E0-9F8B-19B658DAD022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DF3C91D-06F9-41E0-9F8B-19B658DAD022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DF3C91D-06F9-41E0-9F8B-19B658DAD022}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
